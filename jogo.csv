@@ -1,0 +1,7 @@
+#Codigo Da Pagina;Texto Da Pagina;Op1;Op2;Op3;Atributo op1 (0 - Vitalidade, 1 - Forca, 2 - Agilidade 3 Inteligencia);Atributo Op2;Atributo Op3;valor min op1;valor minumo op2;vamor minimo op3;Dar Item
+0;\n 0 - Oi @1 e @2 voces estão em uma enclusilhada.\n Voces podem: \n (digite 1)Ir para frente \n (digite 2)Ir para direita \n (digite 3)Ir para esquerda;1;2;3;-1;-1;-1;-1;-1;-1;-1
+1;\n 1 - Voce encontrou um monstro.\n Voce pode: \n (digite 1)Lutar(Forca 10)\n (digite 2)Fugir (Agilidade 10) \n (digite 3) Ficar Amigo (Inteligencia 40);2;3;4;1;2;3;10;10;40;-1
+2;\n 2 -@1 achou um bau, nele havia uma Espada.\n Voce pode: \n (digite 1)Ir para frente \n (digite 2)Ir para direita \n (digite 3)Ir para esquerda;3;4;0;-1;-1;-1;-1;-1;-1;0
+3;\n 3 - @1 achou um bau, nele havia um Arco.\n Voce pode: \n (digite 1)Ir para frente \n (digite 2)Ir para direita \n (digite 3)Ir para esquerda;4;0;1;-1;-1;-1;-1;-1;-1;2
+4;\n 4 - Voce está em uma enclusilhada.\n Voce pode: \n (digite 1)Ir para frente \n (digite 2)Ir para direita \n (digite 3)Ir para esquerda;5;1;2;-1;-1;-1;-1;-1;-1;-1
+5;\n O Dragão comeu sua cabeça. \n Voce morreu \n \n \n Fim de jogo!!!!!;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1

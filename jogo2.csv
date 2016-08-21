@@ -1,0 +1,7 @@
+#Codigo Da Pagina;Texto Da Pagina;Op1;Op2;Op3;Op4
+0;\n 0 - Voce está em uma enclusilhada.\n Voce pode: \n (digite 1)Ir para frente \n (digite 2)Ir para direita \n (digite 3)Ir para esquerda;1;2;3;
+1;\n 1 - Voce está em uma enclusilhada.\n Voce pode: \n (digite 1)Ir para frente \n (digite 2)Ir para direita \n (digite 3)Ir para esquerda;2;3;4;
+2;\n 2 -Voce está em uma enclusilhada.\n Voce pode: \n (digite 1)Ir para frente \n (digite 2)Ir para direita \n (digite 3)Ir para esquerda;3;4;0;
+3;\n 3 - Voce está em uma enclusilhada.\n Voce pode: \n (digite 1)Ir para frente \n (digite 2)Ir para direita \n (digite 3)Ir para esquerda;4;0;1;
+4;\n 4 - Voce está em uma enclusilhada.\n Voce pode: \n (digite 1)Ir para frente \n (digite 2)Ir para direita \n (digite 3)Ir para esquerda;5;1;2;
+5;\n 5 - Voce está em uma enclusilhada.\n Voce pode: \n (digite 1)Ir para frente \n (digite 2)Ir para direita \n (digite 3)Ir para esquerda;0;1;2;
