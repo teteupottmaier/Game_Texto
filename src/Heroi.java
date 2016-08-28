@@ -47,27 +47,27 @@ public class Heroi {
 		switch (item.nome) {
 		case "Espada":
 			atributos[FORCA]+=10;
-			System.out.println("Aumentou sua Força em 10");
+			System.out.println("Aumentou sua Força em 10 \n Suas habilidades atuais são: \n Força: " + atributos[FORCA] + "\n Vitalidade: " + atributos[VITALIDADE] + "\n agilidade: " + atributos[AGILIDADE] + "\n inteligência: " + atributos[INTELIGENCIA] );
 			break;
 		case "Escudo":
 			atributos[VITALIDADE]+=20;
-			System.out.println("Aumentou sua Vitalidade em 20");
+			System.out.println("Aumentou sua Vitalidade em 20 \n Suas habilidades atuais são: \n Força: " + atributos[FORCA] + "\n Vitalidade: " + atributos[VITALIDADE] + "\n agilidade: " + atributos[AGILIDADE] + "\n inteligência: " + atributos[INTELIGENCIA] );
 			break;
 		case "Marchado":
 			atributos[FORCA]+=20;
-			System.out.println("Aumentou sua Força em 20");
+			System.out.println("Aumentou sua Força em 20 \n Suas habilidades atuais são: \n Força: " + atributos[FORCA] + "\n Vitalidade: " + atributos[VITALIDADE] + "\n agilidade: " + atributos[AGILIDADE] + "\n inteligência: " + atributos[INTELIGENCIA] );
 			break;
 		case "Adaga":
 			atributos[AGILIDADE]+=20;
-			System.out.println("Aumentou sua Agilidade em 20");
+			System.out.println("Aumentou sua Agilidadea em 20 \n Suas habilidades atuais são: \n Força: " + atributos[FORCA] + "\n Vitalidade: " + atributos[VITALIDADE] + "\n agilidade: " + atributos[AGILIDADE] + "\n inteligência: " + atributos[INTELIGENCIA] );
 			break;
 		case "Arco e Flecha":
 			atributos[INTELIGENCIA]+=10;
-			System.out.println("Aumentou sua Inteligência em 10");
+			System.out.println("Aumentou sua Inteligência em 10 \n Suas habilidades atuais são: \n Força: " + atributos[FORCA] + "\n Vitalidade: " + atributos[VITALIDADE] + "\n agilidade: " + atributos[AGILIDADE] + "\n inteligência: " + atributos[INTELIGENCIA] );
 			break;
 		case "Cajado":
 			atributos[INTELIGENCIA]+=20;
-			System.out.println("Aumentou sua Inteligência em 20");
+			System.out.println("Aumentou sua Inteligência em 20 \n Suas habilidades atuais são: \n Força: " + atributos[FORCA] + "\n Vitalidade: " + atributos[VITALIDADE] + "\n agilidade: " + atributos[AGILIDADE] + "\n inteligência: " + atributos[INTELIGENCIA] );
 			break;
 		default:
 			break;

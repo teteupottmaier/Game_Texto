@@ -12,7 +12,6 @@ import javax.imageio.stream.FileImageInputStream;
 
 public class GameMain {
 	Heroi heroi1;
-	Heroi heroi2;
 	Scanner scanner;
 	
 	boolean rodandoojogo = true;
@@ -70,25 +69,19 @@ public class GameMain {
 		
 		
 		heroi1 = new Heroi();
-		heroi2 = new Heroi();
 		
 		scanner = new Scanner(System.in);
 
 		System.out.println("Criando Primeiro Heroi");
 		PedeAtributos(heroi1);
-		
-		System.out.println("\nCriando Segundo Heroi");
-		PedeAtributos(heroi2);
+	
 		
 		System.out.println();
 		heroi1.mostraAtributos();
-		System.out.println();
-		heroi2.mostraAtributos();
 		
 		for(int i = 0; i < listaDePaginas.size();i++){
 			Pagina p = listaDePaginas.get(i);
 			p.texto = p.texto.replace("@1", heroi1.nome);
-			p.texto = p.texto.replace("@2", heroi2.nome);
 		}
 		
 		while(rodandoojogo){
