@@ -31,9 +31,8 @@ public class GameMain {
 		listadeitens.add(new Item("Escudo"));//1
 		listadeitens.add(new Item("Machado"));//2
 		listadeitens.add(new Item("Adaga"));//3
-		listadeitens.add(new Item("Arco"));//4
-		listadeitens.add(new Item("Flecha"));//5
-		listadeitens.add(new Item("Cajado"));//6
+		listadeitens.add(new Item("Arco e Flechas"));//4
+		listadeitens.add(new Item("Cajado"));//5
 		
 		listaDePaginas = new ArrayList<Pagina>();
 		
@@ -99,7 +98,7 @@ public class GameMain {
 				if(paginaAtual.att1==-1||heroi1.atributos[paginaAtual.att1]>=paginaAtual.val1){
 					paginaAtual = listaDePaginas.get(paginaAtual.op1);
 					if(paginaAtual.item!=-1){
-						heroi1.meusItens.add(listadeitens.get(paginaAtual.item));
+						heroi1.addItem(listadeitens.get(paginaAtual.item));
 					}
 				}else{
 					System.out.println("Atributo "+Heroi.nomeDoAtributo[paginaAtual.att1]+" insuficiente");
@@ -108,7 +107,7 @@ public class GameMain {
 				if(paginaAtual.att2==-1||heroi1.atributos[paginaAtual.att2]>=paginaAtual.val2){
 					paginaAtual = listaDePaginas.get(paginaAtual.op2);	
 					if(paginaAtual.item!=-1){
-						heroi1.meusItens.add(listadeitens.get(paginaAtual.item));
+						heroi1.addItem(listadeitens.get(paginaAtual.item));
 					}
 				}else{
 					System.out.println("Atributo "+Heroi.nomeDoAtributo[paginaAtual.att2]+" insuficiente");
@@ -117,7 +116,7 @@ public class GameMain {
 				if(paginaAtual.att3==-1||heroi1.atributos[paginaAtual.att3]>=paginaAtual.val3){
 					paginaAtual = listaDePaginas.get(paginaAtual.op3);	
 					if(paginaAtual.item!=-1){
-						heroi1.meusItens.add(listadeitens.get(paginaAtual.item));
+						heroi1.addItem(listadeitens.get(paginaAtual.item));
 					}
 				}else{
 					System.out.println("Atributo "+Heroi.nomeDoAtributo[paginaAtual.att3]+" insuficiente");

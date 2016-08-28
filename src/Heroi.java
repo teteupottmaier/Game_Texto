@@ -20,7 +20,7 @@ public class Heroi {
 //	int agilidade = 0;//2
 //	int inteligencia = 0;//3
 	
-	ArrayList<Item> meusItens;
+	private ArrayList<Item> meusItens;
 	
 	public Heroi() {
 		// TODO Auto-generated method stub
@@ -42,4 +42,36 @@ public class Heroi {
 		}
 		
 	}
+	
+	public void addItem(Item item){
+		switch (item.nome) {
+		case "Espada":
+			atributos[FORCA]+=10;
+			System.out.println("Aumentou sua Força em 10");
+			break;
+		case "Escudo":
+			atributos[VITALIDADE]+=20;
+			System.out.println("Aumentou sua Vitalidade em 20");
+			break;
+		case "Marchado":
+			atributos[FORCA]+=20;
+			System.out.println("Aumentou sua Força em 20");
+			break;
+		case "Adaga":
+			atributos[AGILIDADE]+=20;
+			System.out.println("Aumentou sua Agilidade em 20");
+			break;
+		case "Arco e Flecha":
+			atributos[INTELIGENCIA]+=10;
+			System.out.println("Aumentou sua Inteligência em 10");
+			break;
+		case "Cajado":
+			atributos[INTELIGENCIA]+=20;
+			System.out.println("Aumentou sua Inteligência em 20");
+			break;
+		default:
+			break;
+		}	
+	}
+	
 }
