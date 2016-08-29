@@ -72,7 +72,7 @@ public class GameMain {
 		
 		scanner = new Scanner(System.in);
 
-		System.out.println("Criando Primeiro Heroi");
+		System.out.println("Criando Heroi");
 		PedeAtributos(heroi1);
 	
 		
